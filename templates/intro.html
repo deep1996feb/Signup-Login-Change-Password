@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Deepanshu -Web Developer, Programmer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!--How we create a navbars using Html-->
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                    <li><a href="/login.html">Login</a></li>
+                    <li><a href="/signin.html">Sign in</a></li>
+                    <li><a href="/logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Main Content-->
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="{% static 'ham.png' %}" alt="" width="63px">
+                <img class="close" src="{% static 'closeham.png' %}" alt="" width="23px">
+            </div>
+            <div class="main">
+                <div class="Intro">
+                    <h2>About Me</h2>
+                    <p>Hi, I am Deepanshu Soni and I am 25 years old. I live in Delhi NCR. I have completed my 10th and
+                        12th
+                        from Government Boys Senior secondary School. I have completed Bachelors of Computer Application
+                        and
+                        Masters of Computer Application from Indira Gandhi National Open University.I have completed my
+                        Python and Django Web Development Training from Ducat Noida and from Internshala training. I am
+                        a
+                        Full Stack Web
+                        Developer. </p>
+                    <div class="skillContainer">
+                        <div class="skillItems">Python: <div class="skills hundred"></div>
+                        </div>
+                        <div class="skillItems">Django: <div class="skills ninty"></div>
+                        </div>
+                        <div class="skillItems">HTML5: <div class="skills hundred"></div>
+                        </div>
+                        <div class="skillItems">CSS3: <div class="skills seventyfive"></div>
+                        </div>
+                        <div class="skillItems">Javascript:<div class="skills sixty"></div>
+                        </div>
+                    </div>
+                    <script src="{% static 'script.js' %}"></script>
+                </div>
+</body>
+
+</html>

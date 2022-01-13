@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Dancing+Script&family=Festive&family=Irish+Grover&family=Open+Sans&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,300;0,500;1,300&family=Qahiri&family=Zen+Antique+Soft&display=swap');
+
+/* How we give reset the css */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(199, 194, 194); 
+    font-family: 'Fira Sans', sans-serif;
+    height: 130vh;
+    transition: transform 0.6s ease-in;
+    
+}
+
+.sidebar nav{
+    padding: 20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 26px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow; */
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: aqua;*/
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 60vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.about{
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.moreabout{
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+/*Contact Form CSS*/
+.contactform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 150px;
+    margin-top: 40px;
+}
+
+.contactform h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.btn-sm{
+    padding: 9px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+/*Blog page CSS*/
+.blogItems{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blogItems p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer{
+    margin: 0 180px;
+    margin-top: 40px;
+}
+
+/*Intro Css*/
+.Intro{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 180px;
+    margin-top: 120px;
+}
+
+.Intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    text-align: center;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItems{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 250px;
+    background-color: red;
+}
+.ninty{
+    width: 230px;
+    background-color: yellow;
+}
+.seventyfive{
+    width: 220px;
+    background-color: darkblue;
+}
+.sixty{
+    width: 180px;
+    background-color: forestgreen;
+}
+/*Login form css*/
+
+.loginform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 150px;
+    margin-top: 40px;
+}
+
+.loginform h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.loginform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.loginform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.btn-sm{
+    padding: 9px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+/*signinform8*/
+
+.signinform{
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 150px;
+    margin-top: 40px;
+}
+
+.signinform h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.signinform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.signinform form div input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.btn-sm{
+    padding: 9px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+
+.btn-sm:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+  
+
+
+/* end */
+/*Hamburger CSS*/
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+
+.close{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+/*Responsive Website CSS*/
+@media (max-width: 1002px) {
+    /*{
+       /* background-color: rgb(224, 88, 88);
+    }*/
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+    .devpic{
+        display: none;
+    }
+}

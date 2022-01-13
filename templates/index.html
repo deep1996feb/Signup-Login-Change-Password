@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Deepanshu -Web Developer, Programmer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!--How we create a navbars using Html-->
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                    <li><a href="/login.html">Login</a></li>
+                    <li><a href="/signin.html">Sign in</a></li>
+                    <li><a href="/logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Main Content-->
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="{% static 'ham.png' %}" alt="" width="63px">
+                <img class="close" src="{% static 'closeham.png' %}" alt="" width="23px">
+            </div>
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Deepanshu Soni</div>
+                    <div class="about">Web Developer, Entrepreneur and Traveller.</div>
+                    <div class="moreabout">I am a Full Stack Web Developer and an Entrepreneur.
+                        I love travelling and love to explore new things.
+                    </div>
+                    <div class="buttons">
+                        <a href="/cv.txt">
+                            <button>Download CV</button></a>
+                        <a href="/contact.html">
+                            <button>Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="devpic"><img src="{% static 'deep.jpg' %}" alt="developer"></div>
+            </div>
+        </div>
+    </div>
+<script src="{% static 'script.js' %}"></script>
+</body>
+</html>

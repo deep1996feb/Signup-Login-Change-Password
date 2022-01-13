@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Deepanshu -Web Developer, Programmer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <!--How we create a navbars using Html-->
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                    <li><a href="/login.html">Login</a></li>
+                    <li><a href="/signin.html">Sign in</a></li>
+                    <li><a href="/logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Main Content-->
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="{% static 'ham.png' %}" alt="" width="63px">
+                <img class="close" src="{% static 'closeham.png' %}" alt="" width="23px">
+            </div>
+            <div class="blogContainer">
+                <h1>Blogs by Deepanshu Soni - Web Developer</h1>
+                <div class="blogItems">
+                    <h2>Learn Python - Why we learn Python?</h2>
+                    <p>Python is a very popular programming language today and often needs an introduction. It is widely
+                        used in various business sectors, such as programming, web development, machine learning, and
+                        data science. </p>
+                    <button type="submit" class="btn-sm">Read more</button>
+                </div>
+                <div class="blogItems">
+                    <h2>Learn Django - Why Django is used?</h2>
+                    <p>Django is a high-level Python web framework that enables rapid development of secure and
+                        maintainable websites. ... Django helps developers avoid many common security mistakes by
+                        providing a framework that has been engineered to "do the right things" to protect the website
+                        automatically.</p>
+                    <button type="submit" class="btn-sm">Read more</button>
+                </div>
+                <div class="blogItems">
+                    <h2>Learn HTML5 - Why HTML is important?</h2>
+                    <p>It's the fundamental technology behind everything you see in a web browser, and it's used to
+                        build everything from simple web pages to complex web applications and services.</p>
+                    <button type="submit" class="btn-sm">Read more</button>
+                </div>
+                <div class="blogItems">
+                    <h2>Learn CSS - Why CSS is so important?</h2>
+                    <p>It is the coding language that gives a website its look and layout. Along with HTML, CSS is
+                        fundamental to web design. Without it, websites would still be plain text on white backgrounds
+                    </p>
+                    <button type="submit" class="btn-sm">Read more</button>
+                </div>
+                <div class="blogItems">
+                    <h2>Learn Javascript - Why Javascript is important?</h2>
+                    <p>js makes responsive design easier. JavaScript has become integral to the Internet experience as
+                        developers build increased interaction and complexity into their applications. Search engines,
+                        ecommerce, content management systems, responsive design, social media and phone apps would not
+                        be possible without it.</p>
+                    <button type="submit" class="btn-sm">Read more</button>
+                </div>
+            </div>
+            <script src="{% static 'script.js' %}"></script>
+        </div>
+    </body>
+</html>
